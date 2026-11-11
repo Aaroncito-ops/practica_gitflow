@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
@@ -7,7 +7,7 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
+      home: const Scaffold(body: Center(child: Text('Version B con Cascada'))),
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
